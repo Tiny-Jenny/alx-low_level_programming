@@ -17,23 +17,23 @@ void times_table(void)
 			if ((n / 10) == 0)
 			{
 				if (j != 0)
-					putchar(' ');
-				putchar(n + '0');
+					_putchar(' ');
+				_putchar(n + '0');
 		 		if (j == 9)
 					continue;
-				putchar(',');
-				putchar(' ');
+				_putchar(',');
+				_putchar(' ');
 			}
 			else
 			{
-				putchar((n / 10) + '0');
-                                putchar((n % 10) + '0');
+				_putchar((n / 10) + '0');
+                                _putchar((n % 10) + '0');
 				if (j == 9)
 					continue;
-				putchar(',');
-				putchar(' ');
+				_putchar(',');
+				_putchar(' ');
 			}
 		}
-		putchar('\n');
+		_putchar('\n');
 	}
 }
