@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 /**
  * times-table - check description
  * Description: It prints 9 times table starting with 0
