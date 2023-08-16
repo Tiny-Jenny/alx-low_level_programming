@@ -5,14 +5,17 @@
  * print_alphabet - Entry point
  * Return:0
  */
+void _putchar(char c) {
+	putchar(c);
+}	
 void print_alphabet(void)
 {
-	char c = 'a';
+	char letter = 'a';
 	
-	while (c <= 'z')
+	while (letter <= 'z')
 	{
-		_putchar(c);
-		c++;
+		_putchar(letter);
+		letter++;
 	}
 	_putchar('\n');
 }
