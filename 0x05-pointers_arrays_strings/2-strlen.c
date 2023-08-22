@@ -5,8 +5,13 @@
  * Return: lenght
  */
 int strlen(char *s)
-	int longi = 0;
-	while (*s != '\0)
+{
+int total_len;
+total_len = 0;
+
+while (s[total_len] != '\0')
 	{
-		longi++;
-		return (long1;)
+		total_len++;
+	}
+return (total_len;)
+}
